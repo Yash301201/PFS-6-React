@@ -1,0 +1,48 @@
+header{
+    background-color: rgb(13, 105, 191);
+    border: 1px solid rgb(198, 205, 190);
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    width: 100%;
+    background-color: #ebebed;
+    border-color: rgb(9, 9, 9);
+    color: #080000;
+    padding: 3%;
+    margin: 10px;
+
+}
+.s1{
+    display: flex;
+    align-items:center;
+}
+.s1>div{
+    flex-basis: 50%;
+}
+.s1 img{
+    width: 100%;
+    height: 100%;
+}
+.doctorparent{
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    gap: 20px;
+}
+.doctorparent img{
+    width: 100%;
+    height: 300px;
+}
+.doctorform{
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(241, 235, 235);
+}
+.doctorform input, .doctorform select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
